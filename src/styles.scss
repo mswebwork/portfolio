@@ -39,3 +39,29 @@ $msxapp-theme: mat.define-light-theme((
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+// global styles
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.container-full-header {
+  width: 100vw;
+  height: 700px;
+  margin: 0;
+}
+
+.activeLink {
+  &:before{
+    content: "👉";
+    margin-right: 5px;
+  }
+
+  &:after {
+    content: "👈";
+    margin-left: 5px;
+  }
+
+}
