@@ -1,14 +1,32 @@
-.background-img {
-  background-image: url("/assets/banners/banner1.jpg");
-  background-origin: border-box;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  color: white;
-}
-
 .box {
-  width: 40%;
+  width: 30%;
   margin-left: 25px;
   padding-top: 150px;
   text-align: justify;
+}
+
+.box-img {
+  margin-top: 100px;
+  max-width: 60%;
+  max-height: 600px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+.flex {
+  padding-top: 20px;
+}
+
+.card {
+  max-width: 400px;
+  margin-top: 25px;
+  box-shadow: none;
+
+  img {
+    border-radius: 20px;
+  }
 }
