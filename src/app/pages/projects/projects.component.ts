@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import {NgOptimizedImage} from "@angular/common";
 import {MatCard, MatCardActions, MatCardContent, MatCardImage} from "@angular/material/card";
-import {MatButton} from "@angular/material/button";
+import {MatButton, MatButtonModule} from "@angular/material/button";
+import {RouterLink} from "@angular/router";
 
 @Component({
   selector: 'app-projects',
@@ -12,7 +13,9 @@ import {MatButton} from "@angular/material/button";
     MatCard,
     MatCardImage,
     MatCardActions,
-    MatButton
+    MatButton,
+    RouterLink,
+    MatButtonModule
   ],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.scss'
